@@ -24,3 +24,8 @@ Removing Excluded d6062799-8bcf-4931-864c-3a7a80cd79b6 in Policy MFA
 True
 ```
 
+NOTE: the input file, has all the Apps Ids to exclude from the policy one line after the other:
+
+
+![image](https://user-images.githubusercontent.com/18380875/215772383-fbd56262-e4d1-402a-b8cb-51fdfed228e4.png)
+
