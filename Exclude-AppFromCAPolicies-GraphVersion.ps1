@@ -1,4 +1,4 @@
-﻿
+
 
 param (
     [string]$AppsIdFile,
@@ -19,7 +19,7 @@ $params = @{
 
 
 try {
-Update-MgIdentityConditionalAccessPolicy -ConditionalAccessPolicyId $PolicyId -BodyParameter $params
+Update-MgIdentityConditionalAccessPolicy -ConditionalAccessPolicyId $PolicyId -BodyParameter $params -ErrorAction Stop
 Write-Host "AppsId excluidos de la policy $($PolicyId)"
 }
 
